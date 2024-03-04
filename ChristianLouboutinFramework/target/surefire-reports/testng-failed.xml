@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="14" parallel="tests" name="Failed suite [CL-Automation ON:SCENARIOS]" verbose="0">
+  <parameter name="TESTCASE" value="TC-10"/>
+  <parameter name="LOCALE" value="CH_FR"/>
+  <parameter name="DS_CONFIG" value="USERINFO_DS-V30,ADDRESS_DS-V9,PAYMENT_DS-V1,BO_DS-V30,WMS_DS-V10"/>
+  <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+  <parameter name="TESTCASENAME" value="TC-10_CH_FR_CHROME_L"/>
+  <parameter name="APPLICATION" value="FRONT"/>
+  <parameter name="DRIVER" value="CHROME"/>
+  <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+  <parameter name="BREAKPOINT" value="L"/>
+  <parameter name="ACTUAL_TC" value="TC_Scenario_10"/>
+  <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+  <parameter name="BROWSERSTACK" value="NO"/>
+  <test parallel="tests" name="TC-06_CH_FR_CHROME_L(failed)">
+    <parameter name="TESTCASE" value="TC-06"/>
+    <parameter name="LOCALE" value="CH_FR"/>
+    <parameter name="DS_CONFIG" value="USERINFO_DS-V26,ADDRESS_DS-V8,BILLINGADDRESS_DS-V5,PAYMENT_DS-V3,BO_DS-V26,WMS_DS-V6,ADYEN_DS-V1"/>
+    <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+    <parameter name="TESTCASENAME" value="TC-06_CH_FR_CHROME_L"/>
+    <parameter name="APPLICATION" value="FRONT"/>
+    <parameter name="DRIVER" value="CHROME"/>
+    <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+    <parameter name="BREAKPOINT" value="L"/>
+    <parameter name="ACTUAL_TC" value="TC_Scenario_06"/>
+    <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+    <parameter name="BROWSERSTACK" value="NO"/>
+    <classes>
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_10">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="clearThreadLocalValues"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_10 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_07">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_07 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_01 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_04">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_04 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_05">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_05 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="step95_VerifyOrderStatusIN_Adyen"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_06 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_03 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_08">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_08 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_02 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_09">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_09 -->
+    </classes>
+  </test> <!-- TC-06_CH_FR_CHROME_L(failed) -->
+  <test parallel="tests" name="TC-03_CH_FR_CHROME_L(failed)">
+    <parameter name="TESTCASE" value="TC-03"/>
+    <parameter name="LOCALE" value="CH_FR"/>
+    <parameter name="DS_CONFIG" value="USERINFO_DS-V23,PAYMENT_DS-V1,ADDRESS_DS-V8,BILLINGADDRESS_DS-V5,BO_DS-V23,WMS_DS-V3,ADYEN_DS-V1"/>
+    <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+    <parameter name="TESTCASENAME" value="TC-03_CH_FR_CHROME_L"/>
+    <parameter name="APPLICATION" value="FRONT"/>
+    <parameter name="DRIVER" value="CHROME"/>
+    <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+    <parameter name="BREAKPOINT" value="L"/>
+    <parameter name="ACTUAL_TC" value="TC_Scenario_03"/>
+    <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+    <parameter name="BROWSERSTACK" value="NO"/>
+    <classes>
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_10">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="clearThreadLocalValues"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_10 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_07">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_07 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_01 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_04">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_04 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_05">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_05 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_06 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="step133_ClickCaseMgmtOPtionINAdyen"/>
+          <include name="methodLevelSetup"/>
+          <include name="step138_VerifyOrderRMAStatusIN_adyen"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_03 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_08">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_08 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_02 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_09">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_09 -->
+    </classes>
+  </test> <!-- TC-03_CH_FR_CHROME_L(failed) -->
+  <test parallel="tests" name="TC-10_CH_FR_CHROME_L(failed)">
+    <parameter name="TESTCASE" value="TC-10"/>
+    <parameter name="LOCALE" value="CH_FR"/>
+    <parameter name="DS_CONFIG" value="USERINFO_DS-V30,ADDRESS_DS-V9,PAYMENT_DS-V1,BO_DS-V30,WMS_DS-V10"/>
+    <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+    <parameter name="TESTCASENAME" value="TC-10_CH_FR_CHROME_L"/>
+    <parameter name="APPLICATION" value="FRONT"/>
+    <parameter name="DRIVER" value="CHROME"/>
+    <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+    <parameter name="BREAKPOINT" value="L"/>
+    <parameter name="ACTUAL_TC" value="TC_Scenario_10"/>
+    <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+    <parameter name="BROWSERSTACK" value="NO"/>
+    <classes>
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_10">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="step81_VerifyOrderStatus"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="clearThreadLocalValues"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_10 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_07">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_07 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_01 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_04">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_04 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_05">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_05 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_06 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_03 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_08">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_08 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_02 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_09">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_09 -->
+    </classes>
+  </test> <!-- TC-10_CH_FR_CHROME_L(failed) -->
+  <test parallel="tests" name="TC-02_CH_FR_CHROME_L(failed)">
+    <parameter name="TESTCASE" value="TC-02"/>
+    <parameter name="LOCALE" value="CH_FR"/>
+    <parameter name="DS_CONFIG" value="USERINFO_DS-V22,ADDRESS_DS-V8,ADYEN_DS-V1,PAYMENT_DS-V2,BO_DS-V22,WMS_DS-V2"/>
+    <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+    <parameter name="TESTCASENAME" value="TC-02_CH_FR_CHROME_L"/>
+    <parameter name="APPLICATION" value="FRONT"/>
+    <parameter name="DRIVER" value="CHROME"/>
+    <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+    <parameter name="BREAKPOINT" value="L"/>
+    <parameter name="ACTUAL_TC" value="TC_Scenario_02"/>
+    <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+    <parameter name="BROWSERSTACK" value="NO"/>
+    <classes>
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_10">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="clearThreadLocalValues"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_10 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_07">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_07 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_01 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_04">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_04 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_05">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_05 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_06 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_03 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_08">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_08 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="step113_VerifyOrderTotalAmtIN_adyen"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_02 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_09">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_09 -->
+    </classes>
+  </test> <!-- TC-02_CH_FR_CHROME_L(failed) -->
+  <test parallel="tests" name="TC-09_CH_FR_CHROME_L(failed)">
+    <parameter name="TESTCASE" value="TC-09"/>
+    <parameter name="LOCALE" value="CH_FR"/>
+    <parameter name="DS_CONFIG" value="USERINFO_DS-V29,PAYMENT_DS-V2,ADDRESS_DS-V8,BO_DS-V29,WMS_DS-V9"/>
+    <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+    <parameter name="TESTCASENAME" value="TC-09_CH_FR_CHROME_L"/>
+    <parameter name="APPLICATION" value="FRONT"/>
+    <parameter name="DRIVER" value="CHROME"/>
+    <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+    <parameter name="BREAKPOINT" value="L"/>
+    <parameter name="ACTUAL_TC" value="TC_Scenario_09"/>
+    <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+    <parameter name="BROWSERSTACK" value="NO"/>
+    <classes>
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_10">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="clearThreadLocalValues"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_10 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_07">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_07 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_01 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_04">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_04 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_05">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_05 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_06 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_03 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_08">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_08 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_02 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_09">
+        <methods>
+          <include name="tearDown"/>
+          <include name="step23_MouseOverElementOnLadiesL1Category"/>
+          <include name="step24_ClickOnL2AccessoiresLadiesCategory"/>
+          <include name="step79_VerifiedSaleableStockQntyDecBy1InBOAferPlacingTheOrder"/>
+          <include name="step54_VerifyInitialSaleableStock"/>
+          <include name="step124_EnterValueInApprovedField"/>
+          <include name="step81_ComparedSeleableStockInWMSAndBOBothAreSame"/>
+          <include name="step136_ClickOnRefundOrExchangeButton"/>
+          <include name="step146_VerifiedOrderStatusInReturnsPage"/>
+          <include name="step154_ClickOnExchangePaymentRadioBtn"/>
+          <include name="step28_ClickonYourCartLinkInConfirmationOverlay"/>
+          <include name="classLevelSetUP"/>
+          <include name="step27_VerifiedContentInConfirmationOverlay"/>
+          <include name="step53_SearchForProductSeleableStockInBO"/>
+          <include name="methodLevelSetup"/>
+          <include name="step159_Click_OKFromAlertPopupForRefundoffline"/>
+          <include name="step160_VerifySuccessMsgForCreatedOrderForRMAOfflineRequest"/>
+          <include name="step137_ClickOnRefundButtonInNewMemoPage"/>
+          <include name="step29_VerifiedMyCartHeaderInMCP"/>
+          <include name="step131_VerifiedOrderStatusInOrdersPage"/>
+          <include name="step25_AppliedColorFilter"/>
+          <include name="step116_EnterRMAID_SearchForOrderDetails_ClickOnReceptionButton"/>
+          <include name="step117_ExecuteRMAProcessinWMS"/>
+          <include name="classLevelTearDown"/>
+          <include name="step105_ComparedSeleableStockInWMSAndBOBothAreSameAfterShippingTheOrder"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="step138_VerifySuccessMsgForCreateCreditMemo"/>
+          <include name="step166_ComparedSeleableStockInWMSAndBOBothAreSameAfterRefundTheOrder"/>
+          <include name="step162_RefreshAndVerifyOrderStatusInOrdersPage"/>
+          <include name="step134_VerifiedOrderStatusInReturnsPage"/>
+          <include name="step42_EnterSearchableSKUAndClickOnSubmitFilter"/>
+          <include name="step26_ClickonAddToCartButton"/>
+          <include name="step30_ClickonProceedToCheckOutButtonInMyCart"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_09 -->
+    </classes>
+  </test> <!-- TC-09_CH_FR_CHROME_L(failed) -->
+  <test parallel="tests" name="TC-01_CH_FR_CHROME_L(failed)">
+    <parameter name="TESTCASE" value="TC-01"/>
+    <parameter name="LOCALE" value="CH_FR"/>
+    <parameter name="DS_CONFIG" value="USERINFO_DS-V21,PAYMENT_DS-V1,BO_DS-V21,WMS_DS-V1,ADYEN_DS-V1"/>
+    <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+    <parameter name="TESTCASENAME" value="TC-01_CH_FR_CHROME_L"/>
+    <parameter name="APPLICATION" value="FRONT"/>
+    <parameter name="DRIVER" value="CHROME"/>
+    <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+    <parameter name="BREAKPOINT" value="L"/>
+    <parameter name="ACTUAL_TC" value="TC_Scenario_01"/>
+    <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+    <parameter name="BROWSERSTACK" value="NO"/>
+    <classes>
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_10">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="clearThreadLocalValues"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_10 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_07">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_07 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="step170_VerifyOrderTotalAmtIN_adyen"/>
+          <include name="step171_VerifyOrderRMAStatusIN_adyen"/>
+          <include name="classLevelSetUP"/>
+          <include name="step29_VerifiedContactUslink"/>
+          <include name="methodLevelSetup"/>
+          <include name="classLevelTearDown"/>
+          <include name="step168_NavigatedIntoAdyenAndClickOnPaymentTab"/>
+          <include name="step93_ClickCaseMgmtOPtionINAdyen"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="step84_VerifyOrderdetailsInOrderspage"/>
+          <include name="step120_VerifyOrderTotalAmtIN_adyen"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_01 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_04">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_04 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_05">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_05 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_06 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_03 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_08">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_08 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_02 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_09">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_09 -->
+    </classes>
+  </test> <!-- TC-01_CH_FR_CHROME_L(failed) -->
+  <test parallel="tests" name="TC-04_CH_FR_CHROME_L(failed)">
+    <parameter name="TESTCASE" value="TC-04"/>
+    <parameter name="LOCALE" value="CH_FR"/>
+    <parameter name="DS_CONFIG" value="USERINFO_DS-V24,ADDRESS_DS-V8,PAYPALPAYMENT_DS-V2,BO_DS-V24,WMS_DS-V4,ADYEN_DS-V1"/>
+    <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+    <parameter name="TESTCASENAME" value="TC-04_CH_FR_CHROME_L"/>
+    <parameter name="APPLICATION" value="FRONT"/>
+    <parameter name="DRIVER" value="CHROME"/>
+    <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+    <parameter name="BREAKPOINT" value="L"/>
+    <parameter name="ACTUAL_TC" value="TC_Scenario_04"/>
+    <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+    <parameter name="BROWSERSTACK" value="NO"/>
+    <classes>
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_10">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="clearThreadLocalValues"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_10 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_07">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_07 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_04">
+        <methods>
+          <include name="tearDown"/>
+          <include name="step81_VerifiedOrderStatusInOrdersPage"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+          <include name="step175_VerifyOrderTotalAmtIN_adyen"/>
+          <include name="step10_VerifiedContactUslink"/>
+          <include name="classLevelTearDown"/>
+          <include name="step190_RefreshAndVerifyOrderStatusInOrdersPage"/>
+          <include name="step193_VerifiedOrderStatusInMyOrdersPage"/>
+          <include name="step196_VerifyOrderTotalAmtIN_adyen"/>
+          <include name="step174_NavigatedIntoAdyenAndClickOnPaymentTab"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="step110_NaviagtedIntoFOAndVerifiedOrderStatusInMyOrdersPage"/>
+          <include name="step76_VerifyOrderdetailsInOrderspage"/>
+          <include name="step197_VerifyOrderRMAStatusIN_adyen"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_04 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_01 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_05">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_05 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_06 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_03 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_08">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_08 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_02 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_09">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_09 -->
+    </classes>
+  </test> <!-- TC-04_CH_FR_CHROME_L(failed) -->
+  <test parallel="tests" name="TC-08_CH_FR_CHROME_L(failed)">
+    <parameter name="TESTCASE" value="TC-08"/>
+    <parameter name="LOCALE" value="CH_FR"/>
+    <parameter name="DS_CONFIG" value="USERINFO_DS-V28,BILLINGADDRESS_DS-V5,ADDRESS_DS-V8,PAYMENT_DS-V2,BO_DS-V28,WMS_DS-V8,ADYEN_DS-V1"/>
+    <parameter name="BROWSER_DEVICE_VERSION" value="76"/>
+    <parameter name="TESTCASENAME" value="TC-08_CH_FR_CHROME_L"/>
+    <parameter name="APPLICATION" value="FRONT"/>
+    <parameter name="DRIVER" value="CHROME"/>
+    <parameter name="ENVIRONMENT" value="HomoEnv1"/>
+    <parameter name="BREAKPOINT" value="L"/>
+    <parameter name="ACTUAL_TC" value="TC_Scenario_08"/>
+    <parameter name="URL" value="https://homologation-eu-1.christianlouboutin.com/ch_fr/"/>
+    <parameter name="BROWSERSTACK" value="NO"/>
+    <classes>
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_10">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="suiteSetUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="clearThreadLocalValues"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_10 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_07">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_07 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_01 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_04">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_04 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_05">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_05 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_06">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_06 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_08">
+        <methods>
+          <include name="tearDown"/>
+          <include name="step113_ClickCaseMgmtOPtionINAdyen"/>
+          <include name="classLevelSetUP"/>
+          <include name="step140_VerifyOrderTotalAmtIN_adyen"/>
+          <include name="methodLevelSetup"/>
+          <include name="step186_VerifySuccessMsgForCreateCreditMemo"/>
+          <include name="classLevelTearDown"/>
+          <include name="step187_ClickOnSalesIcon"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="step188_ClickOrderstxtFromSalesIcon"/>
+          <include name="step189_VerifiedOrderStatusInOrdersPage"/>
+          <include name="step192_VerifiedOrderStatusInReturnsPage"/>
+          <include name="step195_VerifyOrderTotalAmtIN_adyen"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_08 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_03 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="methodLevelTearDown"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_02 -->
+      <class name="src.in.valtech.cl.scenarios.TC_Scenario_09">
+        <methods>
+          <include name="tearDown"/>
+          <include name="classLevelTearDown"/>
+          <include name="methodLevelTearDown"/>
+          <include name="setUp"/>
+          <include name="classLevelSetUP"/>
+          <include name="methodLevelSetup"/>
+        </methods>
+      </class> <!-- src.in.valtech.cl.scenarios.TC_Scenario_09 -->
+    </classes>
+  </test> <!-- TC-08_CH_FR_CHROME_L(failed) -->
+</suite> <!-- Failed suite [CL-Automation ON:SCENARIOS] -->
